@@ -5,7 +5,11 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {},
+      colors: {
+        stauj: {
+          100: '#C99C70'
+        }
+      },
     },
   },
   variants: {},
