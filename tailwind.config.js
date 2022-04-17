@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         stauj: {
-          100: '#C99C70'
+          100: '#C99C70',
+          200: '#AC845C'
         }
       },
     },
