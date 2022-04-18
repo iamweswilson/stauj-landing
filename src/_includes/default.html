@@ -16,9 +16,11 @@
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
   </head>
-  <body class="antialiased text-neutral-500 dark:text-neutral-400">
+  <body class="antialiased text-neutral-400 bg-stauj-100">
 
     {{ content | safe }}
+
+    {% include "./partials/footer.html" %}
 
 
     <script src="/static/js/alpine.js"></script>
