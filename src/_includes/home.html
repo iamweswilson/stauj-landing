@@ -16,18 +16,9 @@
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
   </head>
-  <body class="antialiased text-stauj-500 bg-stauj-100 flex flex-col h-screen justify-between">
-    <div class="w-full bg-black">
-      <main class="max-w-[80rem] mx-auto py-4 px-4 sm:px-6 lg:px-8">
-        <a href="/">
-          <img src="/static/img/stauj-logo-light.svg" alt="" class="w-32">
-        </a>
-      </main>
-    </div>
+  <body class="antialiased text-neutral-400 bg-stauj-100">
 
-    <main class="max-w-[80rem] mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-20">
-      {{ content | safe }}
-    </main>
+    {{ content | safe }}
 
     {% include "./partials/footer.html" %}
 
